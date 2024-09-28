@@ -1,0 +1,118 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+p,
+blockquote,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+pre,
+form,
+fieldset,
+legend,
+button,
+input,
+textarea,
+th,
+td {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+img {
+  /* 底部留白 */
+  display: block;
+  border: 0;
+}
+
+b,
+strong {
+  font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  /* 父元素的百分比 */
+  font-size: 100%;
+  font-weight: normal;
+}
+
+i,
+em {
+  /* 不傾斜 */
+  font-style: normal;
+}
+
+u,
+ins,
+s,
+del {
+  /* 去掉中畫線和下畫線 */
+  text-decoration: none;
+}
+
+table {
+  border: 1px solid #999;
+  /* 相當於 cellspacing */
+  border-spacing: 0;
+  /* 1px 邊框 */
+  border: none;
+}
+
+td,
+th {
+  border: 1px solid #999;
+}
+
+input,
+button {
+  /* 去掉輪廓線 */
+  outline: none;
+  border: none;
+}
+
+body {
+  font: 12px/1.5 'Microsoft Yahei', Tahoma, Helvetica, Arial,
+    '\5b8b\4f53'sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #666;
+}
+
+a:hover {
+  color: #dd302d;
+  text-decoration: none;
+}
+
+.leftfix {
+  float: left;
+}
+
+.rightfix {
+  float: right;
+}
+
+.clearfix::after {
+  content: '';
+  display: block;
+  clear: both;
+}
