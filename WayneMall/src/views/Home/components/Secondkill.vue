@@ -1,6 +1,6 @@
 <template>
   <div class="secondkill">
-    <div class="container">
+    <div class="container clearfix">
       <div class="image-layout-secondkill">
         <img src="../../../assets/svgs/secondkill.svg" alt="" />
       </div>
