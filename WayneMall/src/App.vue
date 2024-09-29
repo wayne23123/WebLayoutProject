@@ -1,3 +1,13 @@
+<script setup>
+import Topbar from './components/Topbar.vue';
+</script>
+
 <template>
-  <div><router-view></router-view></div>
+  <div>
+    <Topbar />
+
+    <router-view></router-view>
+  </div>
 </template>
+
+<style scoped></style>
