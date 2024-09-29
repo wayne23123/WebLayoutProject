@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 144" width="192" height="144">
+    <!-- 第一排 -->
+    <rect x="10" y="4" rx="2" ry="2" width="28" height="40" fill="#90CAF9" />
+    <circle cx="24" cy="36" r="3" fill="#FFFFFF" />
+    <text x="22" y="20" font-family="Arial, sans-serif" font-size="8" fill="#000">$</text> -->
+
+    <!-- 火車票圖標 -->
+    <rect x="48" y="0" width="48" height="48" rx="5" ry="5" fill="#90EE90" stroke="#000" stroke-width="2" />
+    <rect x="54" y="14" width="36" height="12" fill="#fff" />
+    <line x1="54" y1="20" x2="90" y2="20" stroke="#000" stroke-width="2" />
+    <circle cx="60" cy="20" r="2" fill="#000" />
+    <circle cx="84" cy="20" r="2" fill="#000" />
+    <text x="66" y="35" font-family="Arial, sans-serif" font-size="8" fill="#000">Train</text>
+
+    <!-- 加油卡圖標 -->
+    <rect x="96" y="0" width="48" height="48" rx="5" ry="5" fill="#f0f0f0" stroke="#000" stroke-width="2" />
+    <rect x="102" y="12" width="32" height="20" fill="#fff" />
+    <polygon points="108,22 112,16 116,22 112,28" fill="#ff8c00" />
+    <text x="102" y="36" font-family="Arial, sans-serif" font-size="8" fill="#000">Fuel</text>
+
+    <!-- 便條紙圖標 -->
+    <rect x="144" y="0" width="48" height="48" rx="5" ry="5" fill="#ffebcd" stroke="#000" stroke-width="2" />
+    <line x1="148" y1="10" x2="188" y2="10" stroke="#000" stroke-width="2" />
+    <line x1="148" y1="20" x2="188" y2="20" stroke="#000" stroke-width="2" />
+    <line x1="148" y1="30" x2="188" y2="30" stroke="#000" stroke-width="2" />
+
+    <!-- 第二排 -->
+    <!-- 電影票圖標 -->
+    <rect x="0" y="48" width="48" height="48" rx="5" ry="5" fill="#f08080" stroke="#000" stroke-width="2" />
+    <rect x="8" y="56" width="32" height="20" fill="#fff" />
+    <circle cx="16" cy="66" r="3" fill="#000" />
+    <circle cx="32" cy="66" r="3" fill="#000" />
+    <text x="12" y="86" font-family="Arial, sans-serif" font-size="8" fill="#000">Movie</text>
+
+    <!-- 飯店圖標 -->
+    <rect x="48" y="48" width="48" height="48" rx="5" ry="5" fill="#FFD700" stroke="#000" stroke-width="2" />
+    <rect x="54" y="58" width="36" height="24" fill="#fff" />
+    <text x="60" y="86" font-family="Arial, sans-serif" font-size="8" fill="#000">Hotel</text>
+
+    <!-- 理財圖標 -->
+    <rect x="96" y="48" width="48" height="48" rx="5" ry="5" fill="#87CEEB" stroke="#000" stroke-width="2" />
+    <circle cx="120" cy="72" r="10" fill="#ffd700" />
+    <text x="116" y="76" font-family="Arial" font-size="10" fill="#000">$</text>
+    <text x="102" y="86" font-family="Arial, sans-serif" font-size="8" fill="#000">Finance</text>
+
+    <!-- 機票圖標 -->
+    <rect x="144" y="48" width="48" height="48" rx="5" ry="5" fill="#8A2BE2" stroke="#000" stroke-width="2" />
+    <polygon points="160,70 168,60 176,70 168,80" fill="#fff" />
+    <line x1="150" y1="66" x2="188" y2="66" stroke="#fff" stroke-width="2" />
+    <text x="152" y="86" font-family="Arial, sans-serif" font-size="8" fill="#fff">Ticket</text>
+
+    <!-- 第三排 -->
+    <!-- 禮品卡圖標 -->
+    <rect x="0" y="96" width="48" height="48" rx="5" ry="5" fill="#FF69B4" stroke="#000" stroke-width="2" />
+    <rect x="10" y="108" width="28" height="16" fill="#fff" />
+    <line x1="10" y1="108" x2="38" y2="124" stroke="#000" stroke-width="2" />
+    <circle cx="24" cy="114" r="3" fill="#FF4500" />
+    <text x="8" y="138" font-family="Arial, sans-serif" font-size="8" fill="#000">Gift</text>
+
+    <!-- 彩票圖標 -->
+    <rect x="48" y="96" width="48" height="48" rx="5" ry="5" fill="#00FA9A" stroke="#000" stroke-width="2" />
+    <text x="58" y="120" font-family="Arial, sans-serif" font-size="12" fill="#000">Lotto</text>
+
+    <!-- 遊戲圖標 -->
+    <rect x="96" y="96" width="48" height="48" rx="5" ry="5" fill="#FF6347" stroke="#000" stroke-width="2" />
+    <circle cx="120" cy="120" r="12" fill="#fff" />
+    <rect x="115" y="115" width="10" height="10" fill="#000" />
+    <text x="108" y="138" font-family="Arial, sans-serif" font-size="8" fill="#000">Game</text>
+
+    <!-- 眾籌圖標 -->
+    <rect x="144" y="96" width="48" height="48" rx="5" ry="5" fill="#32CD32" stroke="#000" stroke-width="2" />
+    <circle cx="168" cy="120" r="10" fill="#FFD700" />
+    <text x="164" y="124" font-family="Arial, sans-serif" font-size="8" fill="#000">%</text>
+    <text x="152" y="138" font-family="Arial, sans-serif" font-size="8" fill="#000">Crowd</text>
+</svg>

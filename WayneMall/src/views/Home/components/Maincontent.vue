@@ -297,20 +297,75 @@
           </div>
           <ul class="message-list">
             <li>
-              <router-link to="/">[特價]上衣特價中!</router-link>
+              <router-link to="/">[特價] 上衣特價中!</router-link>
             </li>
             <li>
-              <router-link to="/">[特價]牛仔褲特價中!</router-link>
+              <router-link to="/">[特價] 牛仔褲特價中!</router-link>
             </li>
             <li>
-              <router-link to="/">[特價]短褲特價中! </router-link>
+              <router-link to="/">[特價] 短褲特價中! </router-link>
             </li>
             <li>
-              <router-link to="/">[特價]鞋子特價中!</router-link>
+              <router-link to="/">[特價] 鞋子特價中!</router-link>
             </li>
           </ul>
         </div>
-        <div class="other-nav"></div>
+        <div class="other-nav">
+          <ul class="other-nav-list clearfix">
+            <li>
+              <div class="picture"></div>
+              <span>電話費</span>
+            </li>
+            <li>
+              <div class="picture"></div>
+              <span>電話費</span>
+            </li>
+            <li>
+              <div class="picture"></div>
+              <span>電話費</span>
+            </li>
+            <li>
+              <div class="picture"></div>
+              <span>電話費</span>
+            </li>
+          </ul>
+          <ul class="other-nav-list clearfix">
+            <li>
+              <div class="picture"></div>
+              <span>電話費</span>
+            </li>
+            <li>
+              <div class="picture"></div>
+              <span>電話費</span>
+            </li>
+            <li>
+              <div class="picture"></div>
+              <span>電話費</span>
+            </li>
+            <li>
+              <div class="picture"></div>
+              <span>電話費</span>
+            </li>
+          </ul>
+          <ul class="other-nav-list clearfix">
+            <li>
+              <div class="picture"></div>
+              <span>電話費</span>
+            </li>
+            <li>
+              <div class="picture"></div>
+              <span>電話費</span>
+            </li>
+            <li>
+              <div class="picture"></div>
+              <span>電話費</span>
+            </li>
+            <li>
+              <div class="picture"></div>
+              <span>電話費</span>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
   </div>
@@ -444,7 +499,86 @@
   margin-top: 10px;
   width: 290px;
   height: 290px;
-  background-color: #f73e3e;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+.other-nav-list:first-child {
+  /* margin 被父元素搶走，解法:找父元素給 overflow: hidden */
+  margin-top: 16px;
+}
+
+.other-nav-list:nth-child(2) {
+  margin: 17px 0;
+}
+
+.other-nav-list li {
+  width: 48px;
+  height: 70px;
+  /* background-color: #118181; */
+  float: left;
+  margin: 0 11px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.other-nav-list li:first-child {
+  margin-left: 16px;
+}
+
+.other-nav-list .picture {
+  /* img 標籤引入圖片可以省略寬高，但這邊是 div */
+  background: url('../../../assets/svgs/svg-sprite-other-nav-list.svg');
+  width: 48px;
+  height: 48px;
+}
+
+.other-nav-list:nth-child(1) li:nth-child(1) .picture {
+  background-position: 0 0;
+}
+
+.other-nav-list:nth-child(1) li:nth-child(2) .picture {
+  background-position: -48px 0;
+}
+
+.other-nav-list:nth-child(1) li:nth-child(3) .picture {
+  background-position: -96px 0;
+}
+
+.other-nav-list:nth-child(1) li:nth-child(4) .picture {
+  background-position: -144px 0;
+}
+
+.other-nav-list:nth-child(2) li:nth-child(1) .picture {
+  background-position: 0 -48px;
+}
+
+.other-nav-list:nth-child(2) li:nth-child(2) .picture {
+  background-position: -48px -48px;
+}
+
+.other-nav-list:nth-child(2) li:nth-child(3) .picture {
+  background-position: -96px -48px;
+}
+
+.other-nav-list:nth-child(2) li:nth-child(4) .picture {
+  background-position: -144px -48px;
+}
+
+.other-nav-list:nth-child(3) li:nth-child(1) .picture {
+  background-position: 0 -96px;
+}
+
+.other-nav-list:nth-child(3) li:nth-child(2) .picture {
+  background-position: -48px -96px;
+}
+
+.other-nav-list:nth-child(3) li:nth-child(3) .picture {
+  background-position: -96px -96px;
+}
+
+.other-nav-list:nth-child(3) li:nth-child(4) .picture {
+  background-position: -144px -96px;
 }
 
 /* #endregion */
