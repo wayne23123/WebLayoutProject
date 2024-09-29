@@ -2,6 +2,7 @@
 import Header from './components/Header.vue';
 import Mainnav from './components/Mainnav.vue';
 import Maincontent from './components/Maincontent.vue';
+import Secondkill from './components/Secondkill.vue';
 </script>
 
 <template>
@@ -11,5 +12,7 @@ import Maincontent from './components/Maincontent.vue';
     <Mainnav />
 
     <Maincontent />
+
+    <Secondkill />
   </div>
 </template>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="200" viewBox="0 0 240 200">
+    <!-- 背景顏色 -->
+    <rect width="100%" height="100%" fill="#DD302D" />
+
+    <!-- 閃電圖形，修正座標並保留簍空 -->
+    <polygon points="120,50 110,95 140,95 100,180 110,110 80,110" fill="none" stroke="#FFD700" stroke-width="5" />
+
+    <!-- "秒殺專區"文字，調整位置和顏色 -->
+    <text x="50%" y="30" font-family="Arial, sans-serif" font-size="22" fill="#FFFFFF" font-weight="bold"
+        text-anchor="middle">
+        秒殺專區
+    </text>
+
+    <!-- 添加文字陰影 -->
+    <text x="50%" y="30" font-family="Arial, sans-serif" font-size="22" fill="#FFA500" font-weight="bold"
+        text-anchor="middle" opacity="0.5">
+        秒殺專區
+    </text>
+</svg>
