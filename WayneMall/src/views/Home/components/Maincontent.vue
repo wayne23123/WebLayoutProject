@@ -286,15 +286,37 @@
           </div>
         </li>
       </ul>
-      <div class="banner leftfix"></div>
-      <div class="slide-other leftfix"></div>
+      <div class="banner leftfix">
+        <img src="../../../assets/images/shop01.jpg" alt="" />
+      </div>
+      <div class="slide-other leftfix">
+        <div class="message">
+          <div class="title">
+            <span class="leftfix"> 最新消息 </span>
+            <router-link class="rightfix" to="/">更多 &nbsp; &gt;</router-link>
+          </div>
+          <ul class="message-list">
+            <li>
+              <router-link to="/">[特價]上衣特價中!</router-link>
+            </li>
+            <li>
+              <router-link to="/">[特價]牛仔褲特價中!</router-link>
+            </li>
+            <li>
+              <router-link to="/">[特價]短褲特價中! </router-link>
+            </li>
+            <li>
+              <router-link to="/">[特價]鞋子特價中!</router-link>
+            </li>
+          </ul>
+        </div>
+        <div class="other-nav"></div>
+      </div>
     </div>
   </div>
 </template>
 
 <style scoped>
-/* #region 強制摺疊 */
-
 .main-content {
   margin-top: 10px;
 }
@@ -304,6 +326,7 @@
   margin: 0 auto;
 }
 
+/* #region 強制摺疊 .slide-nav  */
 .main-content .slide-nav {
   width: 190px;
   height: 458px;
@@ -368,6 +391,7 @@
   padding: 0 10px;
   border-left: 1px solid #666;
 }
+/* #endregion */
 
 .main-content .banner {
   width: 690px;
@@ -376,10 +400,51 @@
   margin: 0 10px;
 }
 
+.main-content .banner img {
+  width: 100%;
+  height: 100%;
+}
+
+/* #region 強制摺疊 .slide-other */
+
 .main-content .slide-other {
   width: 290px;
   height: 458px;
-  background-color: orange;
+  /* background-color: orange; */
+}
+
+.slide-other .message {
+  width: 260px;
+  height: 156px;
+  background-color: #fff;
+  border: 1px solid #666;
+  padding: 0 14px;
+}
+
+.slide-other .message .title {
+  height: 38px;
+  line-height: 38px;
+  border-bottom: 1px solid #dd302d;
+}
+
+.slide-other .message .title span {
+  font-size: 14px;
+}
+
+.slide-other .message .title a {
+  font-size: 12px;
+}
+
+.message-list li {
+  height: 28px;
+  line-height: 28px;
+}
+
+.slide-other .other-nav {
+  margin-top: 10px;
+  width: 290px;
+  height: 290px;
+  background-color: #f73e3e;
 }
 
 /* #endregion */
