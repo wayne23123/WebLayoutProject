@@ -1,3 +1,4 @@
+/* 基础设置 */
 body,
 h1,
 h2,
@@ -49,14 +50,14 @@ h3,
 h4,
 h5,
 h6 {
-  /* 父元素的百分比 */
+  /* 父元素字号的百分比 */
   font-size: 100%;
   font-weight: normal;
 }
 
 i,
 em {
-  /* 不傾斜 */
+  /* 不倾斜 */
   font-style: normal;
 }
 
@@ -64,16 +65,16 @@ u,
 ins,
 s,
 del {
-  /* 去掉中畫線和下畫線 */
+  /* 去掉中划线和下划线 */
   text-decoration: none;
 }
 
 table {
   border: 1px solid #999;
-  /* 相當於 cellspacing */
+  /* 相当于是cellspacing */
   border-spacing: 0;
-  /* 1px 邊框 */
-  border: none;
+  /* 1px边框 */
+  border-collapse: collapse;
 }
 
 td,
@@ -83,14 +84,16 @@ th {
 
 input,
 button {
-  /* 去掉輪廓線 */
+  /* 去掉轮廓线 */
   outline: none;
   border: none;
 }
 
+/* 风格设置 */
 body {
-  font: 12px/1.5 'Microsoft Yahei', Tahoma, Helvetica, Arial,
-    '\5b8b\4f53'sans-serif;
+  font: 12px/1.5 'Microsoft YaHei', Tahoma, Helvetica, Arial, '\5b8b\4f53',
+    sans-serif;
+  color: #333;
 }
 
 a {

@@ -45,6 +45,7 @@
 </template>
 
 <style scoped>
+/* #region 強制摺疊 */
 .topbar {
   height: 30px;
   background-color: #ececec;
@@ -105,4 +106,5 @@
   padding-right: 0;
   border-right: none;
 }
+/* #endregion */
 </style>
