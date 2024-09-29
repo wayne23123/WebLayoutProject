@@ -4,11 +4,7 @@
       <!-- 左側LOGO區 -->
       <div class="logo leftfix">
         <div class="image-layout">
-          <img
-            class="image"
-            src="../../../assets/svgs/wss.svg"
-            alt="WayneMall"
-          />
+          <img src="../../../assets/svgs/wss.svg" alt="WayneMall" />
         </div>
       </div>
 
@@ -42,11 +38,9 @@
   width: 190px;
   height: 120px;
   /* background-color: #fff; */
-}
-
-.image {
-  width: 100%;
-  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .header .search form {
